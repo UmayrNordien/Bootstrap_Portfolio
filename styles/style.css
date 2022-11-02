@@ -19,6 +19,12 @@ body{
 a{
     text-decoration: none;
 }
+span, i{
+    color:rgb(255, 255, 255);
+}
+/* .images{
+    border: 2px dashed rgb(127, 110, 172);
+} */
  
 /* NAVBAR */
 /* NAVBAR COLLAPSE BUTTON ISNT REPONSIVE ON MOBILE BETWEEN */
@@ -195,6 +201,7 @@ input:focus{
     0%{
         background-color: rgb(227, 154, 193);
         transform: translateX(10);
+
     }
     30%{
         transform: scale(2);
@@ -211,7 +218,8 @@ input:focus{
  
 /* LIST GROUP */
 /* NOT RESPONSIVE YET */
-@media screen and (max-width : 597px){
+/* give the content (tab-content) within the list group a class then set ta media query with min and max screen size */
+/* @media screen and (max-width :597px){
     .list-group-row{
         display:block;
         padding: 5rem;
@@ -224,10 +232,11 @@ input:focus{
         display:block;
         margin-left: 100px;
     }
-}
+} */
  
 /* MODAL */
 /* RESPONSIVE */
+/* use both min and max to set a fixed width/height to a certain element at a certain screen size */
 @media screen and (max-width : 597px){
     .modal{
         display:block;
@@ -259,3 +268,4 @@ input:focus{
         margin-left:50px;
     }
 }
+
