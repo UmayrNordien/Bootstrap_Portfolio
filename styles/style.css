@@ -13,7 +13,8 @@ body{
     background-image: url(https://i.postimg.cc/63RpQKQr/Portfolio-image-added-brightness.png);
     background-size: contain;  
    
-    font-size: larger;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
 }
  
 a{
@@ -44,6 +45,9 @@ color: rgb(255, 255, 255);
 .bs-navbar-togglar{
  
 }
+.navbar-text{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
  
  
 /* MAIN */
@@ -58,6 +62,7 @@ color: rgb(255, 255, 255);
     margin-right: auto;
     margin-left: auto;
   }
+
  
 /* input (form) */
 /* don't know how to apply it to the message box */
@@ -88,9 +93,9 @@ input:focus{
 /* Flipcards */
 .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
+    width: 280px;
+    height: 280px;
+    border: 1px dashed rgb(127, 110, 172);
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: auto;
     margin-bottom: 100px;
@@ -131,6 +136,11 @@ input:focus{
     background-color:  rgb(227, 154, 193);
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
+  }
+
+  span{
+    font-size: 11px;
+    line-height: 1px;
   }
  
 /* ANIMATION */
@@ -215,57 +225,3 @@ input:focus{
         transform: translateX(50);
     }
 }
- 
-/* LIST GROUP */
-/* NOT RESPONSIVE YET */
-/* give the content (tab-content) within the list group a class then set ta media query with min and max screen size */
-/* @media screen and (max-width :597px){
-    .list-group-row{
-        display:block;
-        padding: 5rem;
-    }
-    .list-group-section{
-        width:200%;
-        font-size: 16px;
-    }
-    .modal{
-        display:block;
-        margin-left: 100px;
-    }
-} */
- 
-/* MODAL */
-/* RESPONSIVE */
-/* use both min and max to set a fixed width/height to a certain element at a certain screen size */
-@media screen and (max-width : 597px){
-    .modal{
-        display:block;
-        margin-left: 10px;
-    }
- 
-}
-@media screen and (max-width : 575px){
-    .modal{
-        display:block;
-        margin-left: 100px;
-    }
- 
-}
-@media screen and (max-width : 476px){
-    .modalimage{
-        width:100px;
-        height:100px;
-    }
-    .modal{
-        display:block;
-        margin-left:100px;
-    }
- 
-}
-@media screen and (max-width : 308px){
-    .modal{
-        display:block;
-        margin-left:50px;
-    }
-}
-
