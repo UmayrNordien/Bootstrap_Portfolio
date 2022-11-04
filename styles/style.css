@@ -292,19 +292,7 @@ hr{
     color:  rgb(127, 110, 172);
     box-shadow: inset 0 1px 1px rgb(255, 255, 255), 0 0 8px rgb(127, 110, 172);
   }
-
-@media screen (max-width:382px) {
-    /* input{
-        margin-left:0;
-        margin-right:0;
-        padding:0;
-        width:100%;
-      } */
     
-}
-    
-
- 
 /* ICON HOVER */
 .SocialIconContainer:hover{
     animation: firstanimation 3s infinite;
