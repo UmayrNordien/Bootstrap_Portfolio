@@ -29,6 +29,14 @@ body{
 .homeheight{
     height:66vh;
 }
+@media screen and (max-width: 500px ){
+    .homeheight{
+        height:50vh;   
+                                    /* decrease height of home section when screen size reduced to 500 and below */
+
+    }
+    
+}
 
 h3{
     padding-bottom: 300px;
