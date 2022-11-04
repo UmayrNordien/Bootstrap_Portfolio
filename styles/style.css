@@ -22,6 +22,17 @@ body{
 
 }
 
+.logop{
+    color:rgb(127, 110, 172) !important;
+}
+
+.homeheight{
+    height:66vh;
+}
+
+h3{
+    padding-bottom: 300px;
+}
  
 a{
     text-decoration: none;
@@ -48,11 +59,8 @@ color: rgb(255, 255, 255);
     margin:10rem;
 }
  
-.bs-navbar-togglar{
- 
-}
 .navbar-text{
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family:'Pathway Gothic One', sans-serif;
 }
  
  
@@ -60,7 +68,50 @@ color: rgb(255, 255, 255);
 .main{
     text-align: center;
 }
- 
+
+.homecolumn{
+    height:50px;
+}
+
+
+/* BUTTON */
+.timeline-button{
+    background-color:transparent;
+    color:  rgb(0, 0, 0);
+    border:2px dashed;
+    border-color: rgb(116, 196, 116);
+    text-decoration: none;
+    font-weight: bold;
+    padding:5px 15px;
+    margin:40px;
+    position: absolute;
+    border-radius: 10px;
+    transition: transform .5s;
+    }
+    
+    .timeline-button:hover{
+        border-color:rgb(127, 110, 172);
+        transform:scale(1.2)
+    }
+@media screen and (max-width:661px) {
+    .timeline-button{
+        display:none;
+    }
+    
+}
+
+    .btn:hover{
+        border-color:rgb(127, 110, 172);
+        transform:scale(1.6);
+        
+    }
+
+    
+    li:hover{
+        border-color:rgb(127, 110, 172);
+        transform:scale(1.1)
+    }
+
  
 /* FONTS */
 .GTAFontsAbout {
@@ -88,12 +139,55 @@ hr{
     float:left;
     padding:0 10px;
 }
+
+/* TEXT SIZE SHRINKING TO SCREEN SIZE */
 @media screen and (max-width: 939px){
     .column{
     width:100%;
     padding: 10px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .col-12{
+        font-size: 16px;
+        padding:10;
+    }
+    body{
+        font-size: 16px;
+        padding:10;
+    }
+    .sectionfonts{
+        width:50px;
+        height:50px;
+    }
+    
+    
+
+}
+@media screen and (max-width: 375px) {
+    .col-12{
+        font-size: 14px;
+        padding:5;
+    }
+    .body{
+        font-size: 14px;
+        padding:5;
+    }
+ 
+}
+@media screen and (max-width: 250px) {
+    .col-12{
+        font-size: 10px;
+        padding:0;
+    }
+    .body{
+        font-size: 10px;
+        padding:0;
+    }
+   
+}
+
  
 .carouselExampleFade{
     border:2px dashed rgb(127, 110, 172);
@@ -129,8 +223,10 @@ hr{
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;  
     height: 100%;
+    width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
@@ -145,7 +241,7 @@ hr{
  
   /* Style the back side */
   .flip-card-back {
-    background-color:  rgb(227, 154, 193);
+    background-color: rgb(127, 110, 172);
     border-radius: 20px;
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
