@@ -31,7 +31,7 @@ body{
 }
 @media screen and (max-width: 500px ){
     .homeheight{
-        height:50vh;   
+        height:66vh;   
                                     /* decrease height of home section when screen size reduced to 500 and below */
 
     }
