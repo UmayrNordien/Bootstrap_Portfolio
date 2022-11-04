@@ -29,13 +29,11 @@ body{
 .homeheight{
     height:66vh;
 }
+
 @media screen and (max-width: 500px ){
     .homeheight{
-        height:66vh;   
-                                    /* decrease height of home section when screen size reduced to 500 and below */
-
+        height:66vh;   /* decrease height of home section when screen size reduced to 500 and below */                         
     }
-    
 }
 
 h3{
@@ -81,32 +79,7 @@ color: rgb(255, 255, 255);
     height:50px;
 }
 
-
 /* BUTTON */
-.timeline-button{
-    background-color:transparent;
-    color:  rgb(0, 0, 0);
-    border:2px dashed;
-    border-color: rgb(116, 196, 116);
-    text-decoration: none;
-    font-weight: bold;
-    padding:5px 15px;
-    margin:40px;
-    position: absolute;
-    border-radius: 10px;
-    transition: transform .5s;
-    }
-    
-    .timeline-button:hover{
-        border-color:rgb(127, 110, 172);
-        transform:scale(1.2)
-    }
-@media screen and (max-width:661px) {
-    .timeline-button{
-        display:none;
-    }
-    
-}
 
     .btn:hover{
         border-color:rgb(127, 110, 172);
@@ -319,6 +292,18 @@ hr{
     color:  rgb(127, 110, 172);
     box-shadow: inset 0 1px 1px rgb(255, 255, 255), 0 0 8px rgb(127, 110, 172);
   }
+
+@media screen (max-width:382px) {
+    /* input{
+        margin-left:0;
+        margin-right:0;
+        padding:0;
+        width:100%;
+      } */
+    
+}
+    
+
  
 /* ICON HOVER */
 .SocialIconContainer:hover{
