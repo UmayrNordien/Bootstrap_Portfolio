@@ -207,6 +207,15 @@ hr{
     }
    
 }
+
+/* MODAL GIF RESIZE */
+@media screen and (max-width: 460px) {
+    .modalimage{
+        width:130px;
+        height: 150px;
+        margin-bottom: 100px;
+}
+}
  
 .carouselExampleFade{
     border:2px dashed rgb(127, 110, 172);
