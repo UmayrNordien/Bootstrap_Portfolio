@@ -13,7 +13,7 @@ body{
     background-image: url(https://i.postimg.cc/63RpQKQr/Portfolio-image-added-brightness.png);
     background-size: contain;  
    
-   
+    /* FONT 2 */
     /* font-family: 'Caveat', cursive; */
     font-family: 'Caveat', cursive;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -214,14 +214,22 @@ hr{
         width:130px;
         height: 150px;
         margin-bottom: 100px;
-}
+    }
+    .modal{
+        margin:0;
+    }
+
 }
  
 .carouselExampleFade{
     border:2px dashed rgb(127, 110, 172);
 }
  
-/* Flipcards */
+.flipcardrow{
+    margin-right: auto !important;
+    margin-left:auto !important;
+}
+
 .flip-card {
     background-color: transparent;
     width: 280px;
@@ -231,6 +239,7 @@ hr{
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: auto;
     margin-bottom: 100px;
+
   }
  
   /* This container is needed to position the front and back side */
