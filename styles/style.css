@@ -10,7 +10,7 @@
  
 body{
     /* BACKGROUND IMAGES */
-    background-image: url(https://i.postimg.cc/63RpQKQr/Portfolio-image-added-brightness.png);
+    background-image: url(/Assets/background-image/Portfolio-background-image-added-brightness.png);
     background-size: contain;  
    
    
@@ -286,7 +286,7 @@ hr{
     float:right;
    
    
-    background-image:url(https://i.postimg.cc/t4dsJcqN/Facebook-Icon-Lavender.png) !important;
+    background-image:url(/Assets/social-media-icons/Facebook\ Icon\ \(Lavender\).png) !important;
     background-size: cover;
 }
 .SocialIconContainer2{
@@ -303,7 +303,7 @@ hr{
     float:right;
    
  
-    background-image:url(https://i.postimg.cc/j2vsK6qt/Github-Icon-Lavender.png);
+    background-image:url(/Assets/social-media-icons/Github\ Icon\ \(Lavender\).png);
     background-size: cover;
 }
 .SocialIconContainer3{
@@ -320,7 +320,7 @@ hr{
     float:right;
    
  
-    background-image:url(https://i.postimg.cc/g24CrBm9/Instagram-Icon-Lavender.png);
+    background-image:url(/Assets/social-media-icons/Instagram\ Icon\ \(Lavender\).png);
     background-size: cover;
 }
 
