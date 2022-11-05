@@ -79,11 +79,20 @@ color: rgb(255, 255, 255);
     height:50px;
 }
 
+/* unvisited link */
+.projectlinks{
+    color: rgb(127, 110, 172);
+    }
+/* mouse over link */
+a:hover {
+    color: rgb(227, 154, 193);
+    }
+
 /* BUTTON */
 
     .btn:hover{
         border-color:rgb(127, 110, 172);
-        transform:scale(1.6);
+        transform:scale(1.4);
         
     }
 
@@ -93,6 +102,36 @@ color: rgb(255, 255, 255);
         transform:scale(1.1)
     }
 
+    /* BUTTON RESUME */
+.timeline-button{
+    background-color:transparent;
+    color:  rgb(0, 0, 0);
+    border:2px dashed;
+    border-color: rgb(116, 196, 116);
+    text-decoration: none;
+    font-weight: bold;
+    padding:5px 15px;
+    margin:40px;
+    position: absolute;
+    border-radius: 10px;
+    transition: transform .5s;
+    }
+    
+    .timeline-button:hover{
+        border-color:rgb(127, 110, 172);
+        transform:scale(1.2)
+    }
+
+    .timeline-button:hover{
+        border-color:rgb(127, 110, 172);
+        transform:scale(1.2)
+    }
+@media screen and (max-width:661px) {
+    .timeline-button{
+        display:none;
+    }
+    
+}
  
 /* FONTS */
 .GTAFontsAbout {
